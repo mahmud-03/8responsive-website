@@ -4,6 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>From</title>
+    <style>
+      nav {
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      div {
+        display: flex;
+        gap: 25px;
+        /* justify-content: space-between; */
+      }
+
+      /* log in form */
+      .from-container {
+        display: flex;
+        justify-content: center;
+      }
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 20px;
+        padding: 10px;
+        border: 5px solid rebeccapurple;
+      }
+      input {
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <ul>
+        <div>
+          <li>Home</li>
+          <li>Blog</li>
+          <li>New</li>
+          <li>About</li>
+        </div>
+        <li>Login</li>
+      </ul>
+    </nav>
+
+    <h3>Login Now</h3>
+    <div class="from-container">
+      <form class="login-form">
+        <input type="email" placeholder="Your Email" />
+        <input
+          type="password"
+          name=""
+          placeholder="Input Your Password"
+          id=""
+        />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </body>
 </html>
